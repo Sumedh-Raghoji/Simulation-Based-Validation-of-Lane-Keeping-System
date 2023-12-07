@@ -19,6 +19,6 @@ $ roslaunch highbay highbay.launch
 $ source devel/setup.bash  
 $ rosrun highbay gem_vision.py  
 
-# TO return the vehicle back to initial position
+# To return the vehicle back to initial position
 $ source devel/setup.bash  
 $ python3 reset.py  
