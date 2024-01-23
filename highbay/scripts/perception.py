@@ -132,7 +132,6 @@ class lanenet_detector:
 		H, L, S = HLS_image[:, :, 0], HLS_image[:, :, 1], HLS_image[:, :, 2]
 		s_threshold = ( S > thresh[0]) & ( S < thresh[1])
 
-		# GEM scenario
 		l_threshold = L > 150
 		h_threshold = ( H < 40 ) | (H > 150) # FILTERING OUT GREEN
 		# binary_img[(s_threshold | l_threshold) & h_threshold] =  1
